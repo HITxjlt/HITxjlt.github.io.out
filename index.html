@@ -33,6 +33,7 @@
     <script>
         // 在图片被点击后触发的事件处理函数
         function onImageClick() {
+            console.log("Image clicked!");
             // 创建全屏的 Canvas 元素
             var canvas = document.createElement("canvas");
             canvas.id = "particles-js";
@@ -61,11 +62,11 @@
                         "polygon": {
                             "nb_sides": 5
                         },
-                        "image": {
-                            "src": "path/to/your/image.png",
-                            "width": 100,
-                            "height": 100
-                        }
+                        //"image": {
+                        //    "src": "path/to/your/image.png",
+                        //    "width": 100,
+                        //    "height": 100
+                        //}
                     },
                     "opacity": {
                         "value": 0.5,
